@@ -15,19 +15,10 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('my first app'),
         centerTitle: true,
-        backgroundColor: Colors.red[200],
+        backgroundColor: Colors.black,
       ),
       body: Center(
-        child: Text(
-          'Very proud of myself, this is for you Kash!',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower',
-          ),
-        ),
+        child: Image.asset('assets/F.png')
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },

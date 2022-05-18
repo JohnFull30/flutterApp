@@ -76,7 +76,7 @@ flutter:
   fonts:
    - family: IndieFlower
      fonts:
-       - asset: Fonts
+       - asset: Fonts\Indie_Flower\IndieFlower-Regular.ttf
 
 
   #

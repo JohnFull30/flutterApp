@@ -17,12 +17,37 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.black,
       ),
-      body: Container(
-            color: Colors.cyan,
-            padding: EdgeInsets.all(20.0),
-            margin: EdgeInsets.all(30.0),
-            child: Text('I am in a box'),
+      body: Row(
+        children: <Widget>[
+          Expanded(
+              child: Image.asset('assets/F.png'),
+            flex: 3,
           ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.cyan,
+              child: Text('1'),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: Text('2'),),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text('3'),),
+          ),
+
+        ],
+      ),
       // body: Center(
       //     child: Image.asset('assets/F.png')
       // ),
